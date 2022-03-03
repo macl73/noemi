@@ -1,17 +1,17 @@
 @font-face {
 	font-family: open-sans;
-	src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular.woff") format("woff"),
-    url("/fonts/OpenSans-Regular.ttf") format("ttf");
+	src: url("fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("fonts/OpenSans-Regular.woff") format("woff"),
+    url("fonts/OpenSans-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
 	font-family: open-sans;
-	src: url("/fonts/OpenSans-Bold.woff2") format("woff2"),
-    url("/fonts/OpenSans-Bold.woff") format("woff"),
-    url("/fonts/OpenSans-Bold.ttf") format("ttf");
+	src: url("fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("fonts/OpenSans-Bold.woff") format("woff"),
+    url("fonts/OpenSans-Bold.ttf") format("ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/banner-bg.jpg");
+  background-image: url("images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -69,7 +69,7 @@ body {
 
 .menu-button {
   position: relative;
-  display: none/*flex*/;
+  display: /*none*/flex;
   flex-direction: column;
   justify-content: space-between;
   width: 23px;
@@ -160,19 +160,19 @@ body {
 }
 
 .trends-post1 {
-  background-image: url(/images/trend1.jpg);
+  background-image: url(images/trend1.jpg);
 }
 
 .trends-post2 {
-  background-image: url(/images/trend2.jpg);
+  background-image: url(images/trend2.jpg);
 }
 
 .trends-post3 {
-  background-image: url(/images/trend3.jpg);
+  background-image: url(images/trend3.jpg);
 }
 
 .trends-post4 {
-  background-image: url(/images/trend4.jpg);
+  background-image: url(images/trend4.jpg);
 }
 
 .trends-post::after {
@@ -418,7 +418,7 @@ body {
   height: 48px;
   border: 0;
   background-color: #b59f5b;
-  background-image: url(/svg/search.svg);
+  background-image: url(svg/search.svg);
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center center;
@@ -696,24 +696,24 @@ body {
 .twitter-link::before {
   width: 25px;
   height: 25px;
-  background-image: url(/svg/004-twitter.svg);
+  background-image: url(svg/004-twitter.svg);
   background-size: 25px;
 }
 
 .pinterest-link::before {
-  background-image: url(/svg/001-pinterest.svg);
+  background-image: url(svg/001-pinterest.svg);
 }
 
 .facebook-link::before {
-  background-image: url(/svg/002-facebook-logo.svg);
+  background-image: url(svg/002-facebook-logo.svg);
 }
 
 .instagram-link::before {
-  background-image: url(/svg/005-instagram.svg);
+  background-image: url(svg/005-instagram.svg);
 }
 
 .tumblr-link::before {
-  background-image: url(/svg/003-tumblr.svg);
+  background-image: url(svg/003-tumblr.svg);
 }
 
 .socials-link-text {
@@ -780,7 +780,7 @@ body {
   border: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: right 13px center;
@@ -805,14 +805,14 @@ body {
   height: 16px;
   margin-right: 4px;
   vertical-align: middle;
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 16px;
 }
 
 .radio:checked ~ .popup-radio-text::before {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(svg/form-circle.svg);
 }
 
 .radio, .close-text {
@@ -860,7 +860,7 @@ body {
   position: absolute;
   top: -25px;
   right: -1px;
-  background-image: url(/svg/form-x.svg);
+  background-image: url(svg/form-x.svg);
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center center;
