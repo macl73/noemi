@@ -738,7 +738,7 @@ body {
 /*Popup*/
 
 .popup_hidden {
-  display: none/*flex*/;
+  display: /*none*/flex;
   justify-content: center;
   align-items: center;
   position: fixed;
