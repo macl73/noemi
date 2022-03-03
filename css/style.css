@@ -453,10 +453,13 @@ body {
   margin-bottom: 57px;
 }
 
+.subscribe-form {
+  font-size: 92.86%;
+}
+
 .subscribe-email {
   width: 272px;
   height: 48px;
-  font-size: 13px;
   padding-left: 18px;
   border: 0;
   background-color: #f3f7f5;
@@ -476,6 +479,7 @@ body {
   margin-right: auto;
   width: 272px;
   height: 48px;
+  font-size: 14px;
   font-weight: 700;
   color: #ffffff;
   border: 0;
@@ -748,7 +752,7 @@ body {
 /*Popup*/
 
 .popup_hidden {
-  display: none/*flex*/;
+  display: /*none*/flex;
   justify-content: center;
   align-items: center;
   position: fixed;
