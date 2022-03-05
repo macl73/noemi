@@ -797,6 +797,7 @@ body {
   padding-left: 20px;
   background-color: #f4f7f6;
   border: none;
+  border-radius: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: url(../svg/form-arrows.svg);
@@ -848,6 +849,7 @@ body {
   max-height: 131px;
   background-color: #f4f7f6;
   border: none;
+  border-radius: 0;
   margin-top: 5px;
   padding: 15px 20px;
   font-size: 13px;
